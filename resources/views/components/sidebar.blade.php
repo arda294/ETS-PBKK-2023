@@ -13,7 +13,7 @@
 </style>
 <div class="flex flex-col bg-green-300 h-screen p-4 whitespace-[wrap] z-50" id="sidebar">
     <span class="">
-        <h1 class="mt-2 mb-4 font-extrabold text-center text-xl">E-Commerce App</h1>
+        <h1 class="mt-2 mb-4 font-extrabold text-center text-xl">Medical Record App</h1>
         <div class="flex mb-2 whitespace-nowrap">
             <img src="{{Auth::user()->photo_url}}" class="rounded-full w-12 h-12 self-center object-cover drop-shadow-sm" alt="">
             <h2 class="self-center text-ellipsis overflow-hidden ml-2 drop-shadow-sm" id="user-name">{{Auth::user()->name}}</h2>

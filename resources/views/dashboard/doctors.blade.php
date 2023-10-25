@@ -2,7 +2,7 @@
 
 @section('main')
 <div class="flex flex-col gap-3 p-4 min-h-full w-full  bg-slate-200">
-    <h1 class="text-2xl font-extrabold">Medical Records List</h1>
+    <h1 class="text-2xl font-extrabold">Doctors List</h1>
     @if ($message = session('success'))
         <span class="flex flex-row bg-green-200 rounded-md ring-1 ring-green-900 text-green-900 p-4" onclick="">
             {{ $message }} <button class="ml-auto font-extrabold" onclick="this.parentNode.remove()">X</button>

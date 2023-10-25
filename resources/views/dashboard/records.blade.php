@@ -8,7 +8,7 @@
             {{ $message }} <button class="ml-auto font-extrabold" onclick="this.parentNode.remove()">X</button>
         </span>
     @endif
-    
+
     <a href="{{url('records/create')}}" class="text-2xl font-extrabold bg-green-500 rounded-md p-2">Add</a>
     <ul class="flex flex-col gap-4 flex-1 bg-green-300 rounded-xl p-4">
         @foreach ($records as $record)
@@ -17,6 +17,7 @@
             <h1>Patient : {{$record->patient->name}}</h1>
             <div class="bg-green-300 rounded-md p-4 m-2">
                 <h1>Health Condition</h1>
+                <h1>Temperature : {{$record->temperature}}</h1>
                 <p>{{$record->health_condition}}</p>
             </div>
             <div>
